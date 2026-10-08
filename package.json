@@ -1,0 +1,22 @@
+{
+  "name": "aura-skincare-agent",
+  "version": "1.0.0",
+  "description": "Aura Skincare AI Voice Customer Support Agent",
+  "main": "app.js",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite"
+  },
+  "keywords": [
+    "ai",
+    "voice-agent",
+    "gemini",
+    "skincare"
+  ],
+  "author": "Ayaan",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^2.27.0",
+    "vite": "^8.3.3"
+  }
+}

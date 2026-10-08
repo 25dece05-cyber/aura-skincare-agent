@@ -1,0 +1,21 @@
+# Node
+node_modules/
+
+# Environment
+.env
+backend/.env
+
+# SQLite
+*.db
+*.db-shm
+*.db-wal
+backend/*.db
+backend/*.db-shm
+backend/*.db-wal
+
+# Editor
+.vscode/
+
+# Backup / test files
+index-backup.html
+test.html
