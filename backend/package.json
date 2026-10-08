@@ -1,0 +1,24 @@
+{
+  "name": "aura-skincare-backend",
+  "version": "1.0.0",
+  "description": "Backend for Aura Skincare AI Voice Agent",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "gemini",
+    "live-api",
+    "voice-agent",
+    "aura-skincare"
+  ],
+  "author": "Ayaan",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^2.27.0",
+    "better-sqlite3": "^13.0.3",
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1"
+  }
+}
